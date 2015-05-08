@@ -81,7 +81,9 @@ setTimeout( hueleANube, 1000 );
 
 // Sentencias: Un buen espaciado permite ver a vista de pájaro lo que se está comprobando
 if ( valor === 'las nubes' ) {
-    // Cuerpo siempre entre llaves, salvo que se vaya a ejecutar un 'return', un 'break' o un 'continue'
+    // Cuerpo siempre entre llaves, salvo que se vaya a ejecutar un 'return', un 'break' o un 'continue' Y además 
+    // no existe un 'else', en cuyo caso se escribiría en una única línea. Algo así:
+    if (typeof valor === 'string') return;
 }
 else if ( valor === 'las olas' ) {
 
