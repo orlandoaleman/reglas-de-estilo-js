@@ -81,7 +81,7 @@ setTimeout( hueleANube, 1000 );
 
 // Sentencias: Un buen espaciado permite ver a vista de pájaro lo que se está comprobando
 if ( valor === 'las nubes' ) {
-
+    // Cuerpo siempre entre llaves, salvo que se vaya a ejecutar un 'return', un 'break' o un 'continue'
 }
 else if ( valor === 'las olas' ) {
 
