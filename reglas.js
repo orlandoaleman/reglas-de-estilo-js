@@ -1,8 +1,9 @@
+
+/// Definición de variables
 var valor = 'las nubes';
 var hueleANube = function (valor) {
     /// Descripción opcional de la función
 };
-
 
 
 /**
