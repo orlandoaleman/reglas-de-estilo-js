@@ -1,6 +1,8 @@
 
 // Definición de variables
 var valor = 'las nubes';
+var $anElem = $('<div>', {class: 'magic'}), // Referencia a un jQuery element
+    $body = $('body');
 var hueleANube = function (valor) {
     /// Descripción opcional de la función
 };
