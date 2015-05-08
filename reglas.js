@@ -89,6 +89,7 @@ if ( 'las nubes' === valor ) {
 }
 
 /// -------------- Definición de un módulo Clase
+/// La primera sección se escribe de forma que al editor no le den "arrebatos de locura" identando.
 define(
 [
     "VistaJS2" /// Clase de la que hereda (primer elemento)
