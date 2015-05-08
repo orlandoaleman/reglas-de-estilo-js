@@ -33,9 +33,10 @@ funcion1(
     , "valor6"  // variable5
 );
 
+// Sin embargo, es preferible usar 'named-args': una única variable de tipo objeto
 
 /**
- *
+ * @param args
  * @param args.callback
  * @param args.tiempo
  * @param args.variable1
