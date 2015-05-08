@@ -83,11 +83,18 @@ setTimeout( hueleANube, 1000 );
 if ( valor === 'las nubes' ) {
 
 }
+else if ( valor === 'las olas' ) {
+
+}
+else {
+    
+}
 
 /// Evitaremos las 'Yoda conditions'
 if ( 'las nubes' === valor ) {
 
 }
+
 
 // -------------- Definición de un módulo Clase
 // La primera sección se escribe de forma que al editor no le den "arrebatos de locura" identando.
