@@ -1,5 +1,5 @@
 
-/// Definición de variables
+// Definición de variables
 var valor = 'las nubes';
 var hueleANube = function (valor) {
     /// Descripción opcional de la función
@@ -83,13 +83,13 @@ if ( valor === 'las nubes' ) {
 
 }
 
-// Evitaremos las 'Yoda conditions'
+/// Evitaremos las 'Yoda conditions'
 if ( 'las nubes' === valor ) {
 
 }
 
-/// -------------- Definición de un módulo Clase
-/// La primera sección se escribe de forma que al editor no le den "arrebatos de locura" identando.
+// -------------- Definición de un módulo Clase
+// La primera sección se escribe de forma que al editor no le den "arrebatos de locura" identando.
 define(
 [
     "VistaJS2" /// Clase de la que hereda (primer elemento)
