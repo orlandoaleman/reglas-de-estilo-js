@@ -21,7 +21,7 @@ function funcion1(callback, tiempo, variable1, variable2, variable3, variable4, 
 
 
 
-// UTOPIA: Cada valor acompañado comentario con el argumento receptor, ¿a que se entiende así?
+// UTOPIA: Cada valor acompañado de un comentario indicando el argumento receptor, ¿a que se entiende mejor así?
 funcion1(
     hueleANube  // callback
     , 1000      // delay
