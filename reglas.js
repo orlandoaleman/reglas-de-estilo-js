@@ -88,3 +88,23 @@ if ( 'las nubes' === valor ) {
 
 }
 
+/// -------------- Definición de un módulo Clase
+define(
+[
+    "VistaJS2" /// Clase de la que hereda (primer elemento)
+    , "FuncionesJS2"        /// Resto de clases, ordenadas por orden alfabético
+    , "ViewControllerJS2"
+]
+), function
+(
+    VistaJS2
+    , F
+    , ViewControllerJS2
+) {
+    
+    function NombreClase() {
+        
+    }
+   
+    return NombreClase;
+});
